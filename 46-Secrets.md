@@ -1,5 +1,3 @@
-Kubernetes Course:
-
 # 46-	Secrets:
 
 ## Create
