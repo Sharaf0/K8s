@@ -14,3 +14,7 @@ kubectl apply -f ./out.yaml
 ```
 kubectl run pod-name --image=nginx --dry-run -o yaml > file.yaml
 ```
+## Extract Pod to yaml file
+```
+kubectl get pod pod-name -o yaml > file.yaml
+```
