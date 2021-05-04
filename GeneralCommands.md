@@ -18,3 +18,11 @@ kubectl run pod-name --image=nginx --dry-run -o yaml > file.yaml
 ```
 kubectl get pod pod-name -o yaml > file.yaml
 ```
+
+```
+kubectl explain [resource] --recursive | less
+```
+
+/ + [word] to search
+'n' for next
+'N' for prev
