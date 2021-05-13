@@ -30,7 +30,7 @@ spec:
 ```
 
 
-![](ingress1.png)
+![](images/ingress1.png)
 This setup would require:
 ```yaml
 apiVersion: networking.k8s.io/v1
